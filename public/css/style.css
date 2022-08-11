@@ -1,0 +1,94 @@
+.background{
+  background-color: rgb(40, 1, 150);
+}
+
+.box1{
+  background-color: white;
+  width: 55vw;
+  border-radius:1vw;
+  padding: 3vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3{
+  font-size: 2.5vw;
+  font-family:'Times New Roman', Times, serif;
+  padding-bottom: 2vw;
+}
+
+.add_form{
+  padding: 0, 2vw, 2vw, 2vw;
+}
+
+.add_textbox{
+  width: 40vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin: 2vw, 5vw, 2vw, 2vw;
+  padding: 0;
+}
+
+.add_button{
+  width: 5vw;
+  height: 2.5vw;
+  border-radius:0.5vw;
+  margin-left: 5vw;
+  background-color: white;
+  border-color: rgb(255, 123, 255);
+  color:rgb(255, 123, 255);
+}
+
+.add_button:hover{
+    background-color:rgb(255, 123, 255);
+    color: white;
+}
+
+table{
+  display:flex;
+  justify-content: center;
+  padding-top: 2vw;
+}
+
+th{
+  padding: 1vw;
+}
+
+td {
+  padding: 1vw;
+}
+
+.todo_contents{
+  height: 2vw;
+  border-radius: 0.5vw;
+}
+
+.update_button {
+  width: 5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  background-color: white;
+  border-color: rgb(250, 96, 35);
+  color: rgb(250, 96, 35);
+}
+
+.update_button:hover {
+  background-color: rgb(250, 96, 35);
+  color: white;
+}
+
+.delete_button {
+  width: 5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  background-color: white;
+  border-color: rgb(59, 196, 128);
+  color: rgb(59, 196, 128);
+}
+
+.delete_button:hover {
+  background-color: rgb(59, 196, 128);
+  color: white;
+}
