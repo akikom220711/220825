@@ -15,12 +15,23 @@ class todos_seeder extends Seeder
     public function run()
     {
         $param=[
-            'contents'=>'仕事'
+            'contents'=>'英語',
+            'tag_id' =>2,
+            'user_id' =>1
         ];
         todo::create($param);
 
         $param=[
-            'contents'=>'美容院'
+            'contents'=>'数学',
+            'tag_id' =>2,
+            'user_id' =>2
+        ];
+        todo::create($param);
+
+        $param=[
+            'contents'=>'サッカー',
+            'tag_id' =>3,
+            'user_id' =>1
         ];
         todo::create($param);
     }

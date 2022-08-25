@@ -13,10 +13,55 @@
   transform: translate(-50%, -50%);
 }
 
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+    
 h3{
-  font-size: 2.5vw;
-  font-family:'Times New Roman', Times, serif;
+  width: 30vw;
+  font-size: 2.0vw;
+  font-family:Helvetica, "游ゴシック", sans-serif;
   padding-bottom: 2vw;
+}
+
+.login_list{
+  display: inline-block;
+  list-style: none;
+}
+
+.logout_button{
+  width: 6.5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin-left: 3vw;
+  background-color: white;
+  border-color: red;
+  color: red;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.logout_button:hover {
+  background-color: red;
+  color: white;
+}
+
+.search_button {
+  width: 7vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin-bottom: 1vw;
+  background-color: white;
+  border-color: rgb(123, 255, 0);
+  color: rgb(123, 255, 0);
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.search_button:hover {
+  background-color: rgb(123, 255, 0);
+  color: white;
 }
 
 .add_form{
@@ -24,7 +69,7 @@ h3{
 }
 
 .add_textbox{
-  width: 40vw;
+  width: 35vw;
   height: 2.5vw;
   border-radius: 0.5vw;
   margin: 2vw, 5vw, 2vw, 2vw;
@@ -35,15 +80,24 @@ h3{
   width: 5vw;
   height: 2.5vw;
   border-radius:0.5vw;
-  margin-left: 5vw;
+  margin-left: 3vw;
   background-color: white;
   border-color: rgb(255, 123, 255);
   color:rgb(255, 123, 255);
+  font-size: 0.8vw;
+  font-weight: bold;
 }
 
 .add_button:hover{
     background-color:rgb(255, 123, 255);
     color: white;
+}
+
+.add_tag{
+  width: 5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin-left: 3vw;
 }
 
 table{
@@ -53,15 +107,15 @@ table{
 }
 
 th{
-  padding: 1vw;
+  padding: 0.5vw;
 }
 
 td {
-  padding: 1vw;
+  padding: 0.5vw;
 }
 
 .todo_contents{
-  height: 2vw;
+  height: 1.5vw;
   border-radius: 0.5vw;
 }
 
@@ -72,6 +126,8 @@ td {
   background-color: white;
   border-color: rgb(250, 96, 35);
   color: rgb(250, 96, 35);
+  font-size: 0.8vw;
+  font-weight: bold;
 }
 
 .update_button:hover {
@@ -86,9 +142,33 @@ td {
   background-color: white;
   border-color: rgb(59, 196, 128);
   color: rgb(59, 196, 128);
+  font-size: 0.8vw;
+  font-weight: bold;
 }
 
 .delete_button:hover {
   background-color: rgb(59, 196, 128);
+  color: white;
+}
+
+.table_tag {
+  width: 5vw;
+  height: 2.0vw;
+  border-radius: 0.5vw;
+}
+
+.return_button {
+  width: 5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  background-color: white;
+  border-color: rgb(99, 98, 99);
+  color: rgb(99, 98, 99);
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.return_button:hover {
+  background-color: rgb(99, 98, 99);
   color: white;
 }

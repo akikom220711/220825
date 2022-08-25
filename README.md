@@ -1,22 +1,31 @@
 # ToDoリスト
-ToDoリスト内容を登録し、一覧を確認することができるアプリ
+ToDoリスト内にタスクを登録し、一覧を確認することができるアプリ
+また、タスクの検索機能を追加した。
 ![Top image](/public/img/top.png)
 
 ## 作成した目的
 ToDoリストを効率的に管理するため作成を行った。
 
 ## 機能一覧
--ToDoリストの一覧表示機能
--ToDoリストへの追加機能
--ToDoリスト内のコンテンツ更新機能
--ToDoリスト内のコンテンツ削除機能
+- ユーザー認証機能によるユーザーごとのToDoリスト管理機能
+- ToDoリストの一覧表示機能
+- ToDoリストのタグによる管理機能
+- ToDoリストへのタスク追加機能
+- ToDoリスト内のタスク更新機能
+- ToDoリスト内のタスク削除機能
+- ToDoリストの検索機能
 
 ## 使用技術（実行環境）
--Windows 10
--Laravel 8.x
+- Windows 10
+- Laravel 8.x
 
 ## テーブル設計
-![Table image](/public/img/table.png)
+- todos_table
+![todos_table image](/public/img/todos_table.png)
+- tags_table
+![tags_table image](/public/img/tags_table.png)
+- users_table
+![users_table image](/public/img/users_table.png)
 
 ## ER図
 ![ER image](/public/img/ER.png)

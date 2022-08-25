@@ -14,5 +14,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(todos_seeder::class);
+        $this->call(tags_seeder::class);
     }
 }
