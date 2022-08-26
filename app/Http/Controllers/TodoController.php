@@ -28,7 +28,7 @@ class TodoController extends Controller
         return redirect('/home');
     }
 
-    public function edit(TodoRequest $request)
+    public function edit(Request $request)
     {
         $form = $request->all();
         unset($form['_token']);
